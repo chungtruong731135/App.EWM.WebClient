@@ -1,0 +1,18 @@
+.category-menu {
+    .category-item {
+      height: auto;
+      border-radius: 0;
+      width: 100%;
+      margin: 0;
+      padding-block: 5px;
+      padding-inline: 10px !important;
+      display: flex;
+      flex-direction: row;
+      align-items:center;
+      justify-content: space-between;
+    }
+    .item-active {
+      background-color: #ebf1ff !important;
+      color: #255fd6;
+    }
+  }

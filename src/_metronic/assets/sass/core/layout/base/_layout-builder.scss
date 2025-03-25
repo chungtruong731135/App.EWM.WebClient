@@ -1,0 +1,20 @@
+//
+// Layout builder
+//
+
+// General mode
+.app-layout-builder-toggle {
+  position: fixed;
+  z-index: $app-layout-builder-toggle-z-index;
+  bottom: $app-layout-builder-toggle-bottom;
+  right: $app-layout-builder-toggle-end;
+  background-color: #cecece45;
+}
+
+// Tablet & mobile modes
+@include media-breakpoint-down(lg) {
+  .app-layout-builder-toggle {
+    bottom: $app-layout-builder-toggle-bottom-mobile;
+    right: $app-layout-builder-toggle-end-mobile;
+  }
+}

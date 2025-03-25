@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"],
+      "@app/*": ["./src/app/*"],
+      "@setup/*": ["./src/setup/*"],
+      "@metronic/*": ["./src/_metronic/*"]
+    }
+  }
+}
