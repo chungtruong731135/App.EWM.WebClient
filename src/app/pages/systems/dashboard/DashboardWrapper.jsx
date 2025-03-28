@@ -54,7 +54,7 @@ const DashboardWrapper = () => {
         </div>
         <div className="card-body">
           <div className="row ">
-            <div className="col-12">
+            {/* <div className="col-12">
               <RenderChartMoney fromDateToDate={fromDateToDate} />
             </div>
             <div className="col-xl-6 col-lg-12">
@@ -68,7 +68,7 @@ const DashboardWrapper = () => {
             </div>
             <div className="col-xl-6 col-lg-12">
               <ChartTangTruongTaiKhoanKichHoatKhoaHoc fromDateToDate={fromDateToDate} />
-            </div>
+            </div> */}
 
             {/*  <div className="col-12">
               <RenderChartCourse fromDateToDate={fromDateToDate} />

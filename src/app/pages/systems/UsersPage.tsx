@@ -6,6 +6,7 @@ import ParentsPage from "./users/ParentsPage";
 import DistributorsPage from "./users/DistributorsPage";
 import RetailersPage from "./users/RetailersPage";
 import TeachersPage from "./users/TeachersPage ";
+
 const GeneralPage = () => {
   return (
     <Routes>

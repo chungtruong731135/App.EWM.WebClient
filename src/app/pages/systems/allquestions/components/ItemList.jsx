@@ -78,7 +78,7 @@ const BookQuestionsPage = (props) => {
         const fetchData = async () => {
             setLoading(true)
             const res = await requestPOST(
-                'api/v1/bookquestions/search',
+                'api/v1/questions/search',
                 _.assign(
                     {
                         pageNumber: offset,
